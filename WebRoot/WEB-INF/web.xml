@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UserCheck</servlet-name>
+		<servlet-class>com.dy.controller.UserCheck</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Upload</servlet-name>
+		<servlet-class>com.dy.controller.Upload</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>UpdateStudent</servlet-name>
+		<servlet-class>com.dy.controller.UpdateStudent</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Forward</servlet-name>
+		<servlet-class>com.dy.controller.Forward</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ShowStu</servlet-name>
+		<servlet-class>com.dy.controller.ShowStu</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ShowPro</servlet-name>
+		<servlet-class>com.dy.controller.ShowPro</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpdateProject</servlet-name>
+		<servlet-class>com.dy.controller.UpdateProject</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>Transfer</servlet-name>
+		<servlet-class>com.dy.controller.Transfer</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpdateTeam</servlet-name>
+		<servlet-class>com.dy.controller.UpdateTeam</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ShowTeam</servlet-name>
+		<servlet-class>com.dy.controller.ShowTeam</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpdateTask</servlet-name>
+		<servlet-class>com.dy.controller.UpdateTask</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>UpdateAssign</servlet-name>
+		<servlet-class>com.dy.controller.UpdateAssign</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ShowTask</servlet-name>
+		<servlet-class>com.dy.controller.ShowTask</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Download</servlet-name>
+		<servlet-class>com.dy.controller.Download</servlet-class>
+	</servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>Download</servlet-name>
+		<url-pattern>/Download</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Upload</servlet-name>
+		<url-pattern>/Upload</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UserCheck</servlet-name>
+		<url-pattern>/UserCheck</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UpdateStudent</servlet-name>
+		<url-pattern>/UpdateStudent</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Forward</servlet-name>
+		<url-pattern>/Forward</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowStu</servlet-name>
+		<url-pattern>/ShowStu</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowPro</servlet-name>
+		<url-pattern>/ShowPro</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateProject</servlet-name>
+		<url-pattern>/UpdateProject</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Transfer</servlet-name>
+		<url-pattern>/Transfer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateTeam</servlet-name>
+		<url-pattern>/UpdateTeam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowTeam</servlet-name>
+		<url-pattern>/ShowTeam</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateTask</servlet-name>
+		<url-pattern>/UpdateTask</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>UpdateAssign</servlet-name>
+		<url-pattern>/UpdateAssign</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowTask</servlet-name>
+		<url-pattern>/ShowTask</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
