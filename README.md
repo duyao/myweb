@@ -1,4 +1,5 @@
 # myweb
+
 for final presentation
 ---
 ## skills
@@ -7,7 +8,7 @@ lab management project
  * servlet
  * sql server 2008
 
- ## management
+## management
  * stuff in labs
  * projects
  * assignments
